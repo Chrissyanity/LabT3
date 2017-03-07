@@ -13,6 +13,7 @@ app.factory("infoFactory", function () {
                 answer = "not fizzbuzzable";
             }
             console.log(answer);
+            return answer;
         },
         inputReturn: function() {
             return answer;

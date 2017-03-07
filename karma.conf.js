@@ -16,10 +16,13 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'node_modules/angular/angular.js',
+      'node_modules/angular-route/angular-route.js',
+
       'node_modules/angular-mocks/angular-mocks.js',
       'js/module.js',
-      'js/*.js',
-      'tests/*.js'
+      '*.js',
+      'js/factory.js',
+      'js/isFizzBuzz.spec.js'
     ],
 
 
